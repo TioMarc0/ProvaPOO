@@ -4,6 +4,9 @@ public class Piramide {
 	private float h;
 	private float a1;
 	private float tipo;
+	private float areaT;
+	private float litros;
+	private float latas;
 	
 	public float getAb() {
 		return ab;
@@ -75,8 +78,13 @@ public class Piramide {
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append("-->Piramide");
-		builder.append("\nTipo: "+ tipo );
+		builder.append("\nAb: "+ ab );
+		builder.append("\nH: "+ h);
+		builder.append("\nAreaT: "+ areaT);
 		builder.append("\nArea1: "+ a1);
+		builder.append("\nLitros: "+ litros);
+		builder.append("\nTipo: "+ tipo);
+		builder.append("\nLatas: "+ latas);
 		return builder.toString();
 	
 
