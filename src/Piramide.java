@@ -16,6 +16,9 @@ public class Piramide {
 		this.a1 = a1;
 		this.tipo = tipo;
 	}
+	public Piramide() {
+		}
+
 	public void setAb(float ab) {
 		this.ab = ab;
 	}
